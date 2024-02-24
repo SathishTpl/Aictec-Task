@@ -1,0 +1,57 @@
+.client-logs {
+    font-family: "Jost", sans-serif;
+    margin-top: 7rem;
+
+    .xy {
+        color: #6610f2;
+    }
+    .client-text {
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+
+    .classic-text {
+        span {
+            background-color: $black;
+            color: white;
+        }
+
+        p {
+            color: #FF5196;
+            letter-spacing: 1px;
+            font-size: 8.5px;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .client-logs {
+        margin-top: 5rem !important;
+    }
+
+    .client-text {
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .client-logs {
+        margin-top: 4rem !important;
+        .client-text {
+            padding-left: 30px !important;
+            padding-right: 30px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 576px){
+    .client-logs {
+        margin-top: 4rem !important;
+        margin-left: 1.7rem !important;
+        .client-text {
+            padding-left: 6px !important;
+            padding-right: 6px !important;
+        }
+    }
+}

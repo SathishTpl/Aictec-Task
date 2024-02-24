@@ -1,0 +1,22 @@
+$white:                 #FFFFFF;
+$black:                 #303030;
+$body-bg:               #fff;
+$body-color:            #303030;
+$Layout:                #45A6FF;
+$background:            conic-gradient(from 180deg at 50% 50%, rgba(73, 222, 255, 0.72) 0deg, rgba(79, 255, 223, 0.71) 360deg);
+
+$border-radius:         1.608rem;
+$font-size:             20px;
+$button-radius:         5px;
+$bs_font_weight:        500;
+
+$card-box-shadow:       20px 25px 36px 0 #A1A1A140;
+$content_text_color:    #4E4E4E;
+
+$transition:            all 0.4s ease-in-out ;
+
+$font-family:           "Jost", sans-serif;
+
+.content-text {
+    color: $content_text_color;
+}

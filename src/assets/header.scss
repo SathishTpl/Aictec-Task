@@ -1,0 +1,1026 @@
+.heading-container {
+    padding-top: 1rem !important;
+    padding-right: 3.5rem !important;
+    position: relative;
+    overflow-x: hidden;
+
+    .header-content {
+        position: relative;
+        z-index: 1;
+
+        ul li {
+            margin-top: 2rem;
+            margin-right: 2.5rem !important;
+            cursor: pointer;
+
+            span {
+                font-size: 1rem;
+                font-weight: $bs_font_weight;
+                transition: all 0.2s ease-in;
+
+                &:hover {
+                    color: #45A6FF;
+                }
+            }
+        }
+    }
+}
+
+.login-btn {
+    background-color: $black !important;
+    color: $white !important;
+    font-weight: 600 !important;
+    padding: 0.5rem 1.5rem !important;
+    text-transform: capitalize !important;
+}
+
+.content-wrapper {
+    position: relative;
+    padding: 2rem 0 0 3rem;
+
+    .top-icons {
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+
+        .content-play-icon {
+            font-size: 3.5rem;
+            color: #DFDAFF;
+            transform: rotate(180deg);
+        }
+    }
+
+
+    .content-box {
+        width: 430px;
+        height: 350px;
+        margin-left: 8rem;
+
+        h2 {
+            margin-bottom: 0;
+            font-size: 2.4rem;
+            line-height: 1.9rem;
+        }
+
+        p {
+            margin-top: 2rem;
+            font-size: 1.2rem;
+            color: #4E4E4E;
+            text-transform: capitalize;
+        }
+
+        .content-btn {
+            background-color: $black !important;
+            color: $white !important;
+            margin-right: 1rem;
+            padding: 0.6rem 1.6rem !important;
+            font-size: 0.8rem !important;
+            font-weight: 600 !important;
+            text-transform: capitalize !important;
+        }
+
+        .content-btn-secondary {
+            color: $black !important;
+            font-size: 0.8rem !important;
+            font-weight: 600 !important;
+            text-transform: none !important;
+        }
+    }
+}
+
+.five-star-wrapper {
+    margin-left: 10rem;
+}
+
+.five_start_badge {
+    background: linear-gradient(0deg, #ECECEC, #ECECEC),
+        linear-gradient(0deg, #F5F5F5, #F5F5F5);
+    border-radius: 5px;
+    padding: 2px;
+
+    .G2 h6 {
+        display: inline;
+        padding: 2px;
+        border-radius: 5px;
+        background-color: #FFC164;
+    }
+
+    div,
+    span {
+        font-weight: 600;
+    }
+
+    .spring {
+        position: relative;
+        padding: 0 10px;
+    }
+}
+
+.five-start-content .star {
+    color: #FFB545;
+    margin-right: 5px;
+}
+
+.chart-content {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 880px;
+    top: -91%;
+    right: -26%;
+    // margin-top: -59%;
+    // margin-right: -26%;
+    background: linear-gradient(180deg, rgba(73, 222, 255, 0.72) 0%, rgba(79, 255, 223, 0.71) 100%);
+    border-radius: 50px;
+    transform: rotate(-16.89deg);
+
+    .chart-inner-content {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        gap: 20px;
+        margin-left: -15px;
+        margin-top: 51%;
+    }
+
+    .column_chart_card {
+        display: flex !important;
+        gap: 10px;
+        border: 0.86px solid #E8E8E8;
+        border-radius: 20px;
+        box-shadow: $card-box-shadow;
+        background: linear-gradient(276.48deg, rgba(244, 244, 244, 0.93) 14.41%,
+                rgba(244, 244, 244, 0.93) 47.68%, rgba(255, 255, 255, 0.93) 93.27%);
+    }
+
+    & .patterns {
+        margin-left: 2rem;
+        gap: 10px;
+        position: relative;
+    }
+}
+
+.pattern-1 {
+    width: 25px;
+    height: 70px;
+    border-radius: 20px;
+    box-shadow: -3px 4px 5px 0 #31B6CE inset;
+    background: linear-gradient(173.42deg, #77EDFF -5.29%, #3ACFF3 104.46%);
+}
+
+.pattern-2 {
+    position: absolute;
+    bottom: 0;
+    left: 35px;
+    width: 25px;
+    height: 30px;
+    border-radius: 20px;
+    background: linear-gradient(173.42deg, #4F4F4F -5.29%, #363636 104.46%);
+    box-shadow: -3px 4px 5px 0px #181818 inset;
+}
+
+.pattern-3 {
+    position: absolute;
+    bottom: 0;
+    left: 70px;
+    width: 25px;
+    height: 88px;
+    border-radius: 20px;
+    background: linear-gradient(173.42deg, #FE8EA2 -5.29%, #E33540 104.46%);
+    box-shadow: -3px 4px 5px 0px #E94F62 inset;
+}
+
+.pattern-4 {
+    position: absolute;
+    bottom: 0;
+    left: 105px;
+    width: 25px;
+    height: 70px;
+    border-radius: 20px;
+    box-shadow: -3px 4px 5px 0 #31B6CE inset;
+    background: linear-gradient(173.42deg, #77EDFF -5.29%, #3ACFF3 104.46%);
+}
+
+.pattern-5 {
+    position: absolute;
+    bottom: 0;
+    left: 140px;
+    width: 25px;
+    height: 30px;
+    border-radius: 20px;
+    background: linear-gradient(173.42deg, #4F4F4F -5.29%, #363636 104.46%);
+    box-shadow: -3px 4px 5px 0px #181818 inset;
+}
+
+.earning_card {
+    position: relative;
+    display: flex !important;
+    border: 0.86px solid #E8E8E8 !important;
+    border-radius: 20px !important;
+    box-shadow: $card-box-shadow;
+    justify-content: center;
+    margin-top: 1.9rem;
+    background: linear-gradient(276.48deg, rgba(244, 244, 244, 0.93) 14.41%,
+            rgba(244, 244, 244, 0.93) 47.68%, rgba(255, 255, 255, 0.93) 93.27%) !important;
+
+
+    .circle {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        background: #EBE1FF;
+        border-radius: 50%;
+    }
+
+    & .inner-circle {
+        position: absolute;
+        top: 12px;
+        left: 12px;
+        width: 25px;
+        height: 25px;
+        border: 0.86px solid #785DE1;
+        border-radius: 50%;
+        background: linear-gradient(0deg, #785DE1, #785DE1),
+            linear-gradient(0deg, #967CF7, #967CF7);
+        box-shadow: 2px 6px 5px 0px #B9ABD7;
+    }
+
+    .card-text {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+        color: $black;
+
+        span {
+            font-weight: 600;
+            font-size: 0.8rem;
+        }
+    }
+}
+
+.statistics_card {
+    display: flex !important;
+    border: 0.86px solid #E8E8E8 !important;
+    border-radius: 20px !important;
+    box-shadow: $card-box-shadow !important;
+    background: linear-gradient(276.48deg, rgba(244, 244, 244, 0.93) 14.41%,
+            rgba(244, 244, 244, 0.93) 47.68%, rgba(255, 255, 255, 0.93) 93.27%) !important;
+
+}
+
+.doughnut_card {
+    display: flex !important;
+    border: 0.86px solid #E8E8E8 !important;
+    border-radius: 20px !important;
+    box-shadow: $card-box-shadow !important;
+    background: linear-gradient(276.48deg, rgba(244, 244, 244, 0.93) 14.41%,
+            rgba(244, 244, 244, 0.93) 47.68%, rgba(255, 255, 255, 0.93) 93.27%) !important;
+
+    .doughnut_chart {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        div {
+            font-weight: 700;
+            font-size: 1.2rem;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+
+            span {
+                font-weight: normal;
+                font-size: 1rem;
+                color: #404040;
+            }
+        }
+    }
+}
+
+.contact_card {
+    position: relative;
+    display: flex !important;
+    border: 0.86px solid #E8E8E8 !important;
+    margin-left: 2rem;
+    border-radius: 20px !important;
+    box-shadow: $card-box-shadow !important;
+    justify-content: center;
+    background: linear-gradient(276.48deg, rgba(244, 244, 244, 0.93) 14.41%,
+            rgba(244, 244, 244, 0.93) 47.68%, rgba(255, 255, 255, 0.93) 93.27%) !important;
+
+}
+
+.header-divider {
+    margin: 11.5rem auto 1rem 10rem !important;
+}
+
+/************Media query**************/
+@media screen and (max-width: 992px) {
+
+    .heading-container {
+        padding-right: 2.5rem !important;
+
+        .header-content {
+            ul li {
+                margin-top: 2rem;
+                margin-right: 1rem !important;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .login-btn {
+        font-weight: 600 !important;
+        padding: 0.4rem 1.2rem !important;
+    }
+
+    .content-wrapper {
+        position: relative;
+        padding: 1rem 0 0 2rem;
+
+        .top-icons {
+            width: 400px;
+            display: flex;
+            justify-content: space-between;
+
+            .content-play-icon {
+                font-size: 2.5rem;
+            }
+        }
+
+        .content-box {
+            width: 400px !important;
+            height: 300px !important;
+            margin-left: 2rem !important;
+
+            h1 {
+                margin-bottom: 0;
+                font-size: 2rem;
+                line-height: 1.5rem;
+            }
+
+            p {
+                margin-top: 1.7rem;
+                font-size: 1rem;
+            }
+
+            .content-btn {
+                background-color: $black !important;
+                color: $white !important;
+                margin-right: 1rem;
+                padding: 0.6rem 1.6rem !important;
+                font-size: 0.8rem !important;
+                font-weight: 600 !important;
+                text-transform: capitalize !important;
+            }
+
+            .content-btn-secondary {
+                color: $black !important;
+                font-size: 0.8rem !important;
+                font-weight: 600 !important;
+                text-transform: none !important;
+            }
+        }
+    }
+
+    .five-star-wrapper {
+        margin-left: 2rem;
+    }
+
+    .five_start_badge {
+        background: linear-gradient(0deg, #ECECEC, #ECECEC),
+            linear-gradient(0deg, #F5F5F5, #F5F5F5);
+        border-radius: 5px;
+        padding: 3px;
+
+        .G2 h6 {
+            display: inline;
+            padding: 3px;
+            border-radius: 5px;
+            background-color: #FFC164;
+        }
+
+        div,
+        span {
+            font-weight: 600;
+        }
+
+        .spring {
+            position: relative;
+            background: #FF7C68;
+            padding: 0 14px;
+            font-weight: normal;
+            color: white;
+            border-radius: 5px;
+        }
+    }
+
+    .five-start-content .star {
+        color: #FFB545;
+        margin-right: 5px;
+    }
+
+    .chart-content {
+        position: absolute;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 10px !important;
+        height: 880px;
+        top: -91%;
+        right: -26%;
+        border-radius: 50px;
+        transform: rotate(-16.89deg);
+
+        .chart-inner-content {
+            display: flex;
+            flex-wrap: wrap;
+            width: 78%;
+            gap: 10px !important;
+            margin-left: -36px;
+            margin-top: 68%;
+        }
+
+        .column_chart_card {
+            width: 14rem !important;
+            display: flex !important;
+            gap: 5px !important;
+        }
+
+        & .patterns {
+            margin-left: 0.5rem !important;
+            gap: 5px !important;
+            position: relative;
+        }
+    }
+
+    .pattern-1 {
+        width: 15px;
+        height: 60px;
+    }
+
+    .pattern-2 {
+        position: absolute;
+        bottom: 0;
+        left: 20px;
+        width: 15px;
+        height: 30px;
+    }
+
+    .pattern-3 {
+        position: absolute;
+        bottom: 0;
+        left: 40px;
+        width: 15px;
+        height: 70px;
+    }
+
+    .pattern-4 {
+        position: absolute;
+        bottom: 0;
+        left: 60px;
+        width: 15px;
+        height: 60px;
+    }
+
+    .pattern-5 {
+        position: absolute;
+        bottom: 0;
+        left: 80px;
+        width: 15px;
+        height: 30px;
+    }
+
+    .earning_card {
+        position: relative;
+        display: flex !important;
+        justify-content: center;
+        margin-top: 1.5rem !important;
+        width: fit-content !important;
+
+        .circle {
+            position: relative;
+            width: 40px;
+            height: 40px;
+            background: #EBE1FF;
+            border-radius: 50%;
+        }
+
+        & .inner-circle {
+            position: absolute;
+            top: 11px;
+            left: 11px;
+            width: 20px;
+            height: 20px;
+        }
+
+        .card-text {
+            h3 {
+                font-size: 1.5rem !important;
+            }
+        }
+    }
+
+    .statistics_card {
+        width: 13rem !important;
+        display: flex !important;
+
+        .chart-title span {
+            font-size: 14px !important;
+            margin: 0 !important;
+        }
+
+        .recharts-wrapper {
+            height: 122px !important;
+        }
+    }
+
+    .arrow-icons {
+        font-size: 17px !important;
+    }
+
+    .doughnut_card {
+        width: 13rem !important;
+        display: flex !important;
+        padding: 0 !important;
+
+        .doughnut_chart {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 8.5rem !important;
+            height: 9rem !important;
+
+            div {
+                font-weight: 700;
+                font-size: 1rem;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 1;
+
+                span {
+                    font-weight: normal;
+                    font-size: 0.8rem;
+                    color: #404040;
+                }
+            }
+        }
+    }
+
+    .contact_card {
+        width: 20rem !important;
+        position: relative;
+        display: flex !important;
+        margin-left: 1.8rem;
+    }
+
+    .header-divider {
+        margin: 9.8rem auto 1rem 2.5rem !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content-wrapper {
+        position: relative;
+        padding: 1rem 0 0 3.2rem;
+
+        .top-icons {
+            width: 500px;
+            display: flex;
+            justify-content: space-between;
+
+            .content-play-icon {
+                font-size: 2.5rem;
+            }
+        }
+
+        .content-box {
+            width: 600px !important;
+            height: 420px !important;
+            margin-left: 2rem !important;
+
+            h1 {
+                margin-bottom: 0;
+                font-size: 3.5rem;
+                line-height: 4rem;
+            }
+
+            p {
+                margin-top: 1.7rem;
+                font-size: 1.3rem;
+            }
+
+            .content-btn {
+                margin-right: 1rem;
+                padding: 0.8rem 1.8rem !important;
+                font-size: 0.9rem !important;
+                font-weight: 600 !important;
+            }
+
+            .content-btn-secondary {
+                font-size: 0.9rem !important;
+                font-weight: 600 !important;
+            }
+        }
+    }
+
+    .five-star-wrapper {
+        width: 450px !important;
+        margin-left: 2rem;
+    }
+
+    .chart-content {
+        position: static !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 5px !important;
+        height: 680px;
+        margin-left: 20px !important;
+        margin-top: 50px !important;
+        background: transparent !important;
+        transform: none !important;
+
+        .chart-inner-content {
+            display: flex;
+            flex-wrap: wrap;
+            height: 100%;
+            width: 100%;
+            gap: 5px !important;
+            margin-left: 0;
+            margin-top: 0;
+        }
+
+        .column_chart_card {
+            width: 20rem !important;
+            height: 7.5rem !important;
+            display: flex !important;
+            gap: 5px !important;
+        }
+
+        & .patterns {
+            margin-left: 0.5rem !important;
+            gap: 5px !important;
+            position: relative;
+        }
+    }
+
+    .pattern-1 {
+        width: 20px;
+        height: 65px;
+    }
+
+    .pattern-2 {
+        position: absolute;
+        bottom: 0;
+        left: 30px;
+        width: 20px;
+        height: 35px;
+    }
+
+    .pattern-3 {
+        position: absolute;
+        bottom: 0;
+        left: 60px;
+        width: 20px;
+        height: 75px;
+    }
+
+    .pattern-4 {
+        position: absolute;
+        bottom: 0;
+        left: 90px;
+        width: 20px;
+        height: 60px;
+    }
+
+    .pattern-5 {
+        position: absolute;
+        bottom: 0;
+        left: 120px;
+        width: 20px;
+        height: 35px;
+    }
+
+    .earning_card {
+        position: relative;
+        display: flex !important;
+        justify-content: center;
+        margin-top: 1.2rem !important;
+        margin-left: 1rem !important;
+        width: 16rem !important;
+
+        .circle {
+            position: relative;
+            width: 40px;
+            height: 40px;
+            background: #EBE1FF;
+            border-radius: 50%;
+        }
+
+        & .inner-circle {
+            position: absolute;
+            top: 11px;
+            left: 11px;
+            width: 20px;
+            height: 20px;
+        }
+
+        .card-text {
+            margin-left: 1.5rem !important;
+            h3 {
+                font-size: 2rem !important;
+            }
+        }
+    }
+
+    .statistics_card {
+        width: 19rem !important;
+        display: flex !important;
+
+        .chart-title span {
+            font-size: 14px !important;
+            margin: 0 !important;
+        }
+
+        .recharts-wrapper {
+            height: 130px !important;
+        }
+    }
+
+    .arrow-icons {
+        font-size: 17px !important;
+    }
+
+    .doughnut_card {
+        width: 16rem !important;
+        display: flex !important;
+        margin-left: 20px;
+        padding: 0 !important;
+
+        .doughnut_chart {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 9.5rem !important;
+            height: 9.5rem !important;
+
+            div {
+                font-weight: 700;
+                font-size: 1rem;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 1;
+
+                span {
+                    font-weight: normal;
+                    font-size: 0.8rem;
+                    color: #404040;
+                }
+            }
+        }
+    }
+
+    .contact_card {
+        width: 27rem !important;
+        position: relative;
+        display: flex !important;
+        margin-left: 2rem;
+    }
+
+    .header-divider {
+        margin: 1rem auto 1rem 6rem !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .heading-container {
+        padding-right: 0.5rem !important;
+
+        .header-content {
+            ul li {
+                margin-top: 2rem;
+                margin-right: 1rem !important;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .content-wrapper {
+        position: relative;
+        padding: 1rem 0 0 2.5rem;
+
+        .top-icons {
+            width: 500px;
+            display: flex;
+            justify-content: space-between;
+
+            .content-play-icon {
+                font-size: 2.5rem;
+            }
+        }
+
+        .content-box {
+            width: 400px !important;
+            height: 420px !important;
+            margin-left: 2rem !important;
+
+            h1 {
+                margin-bottom: 0;
+                font-size: 2.5rem;
+                line-height: 3rem;
+            }
+
+            p {
+                margin-top: 1.7rem;
+                font-size: 1rem;
+            }
+
+            .content-btn {
+                margin-right: 1rem;
+                padding: 0.6rem 1.6rem !important;
+                font-size: 0.9rem !important;
+                font-weight: 600 !important;
+            }
+
+            .content-btn-secondary {
+                font-size: 0.7rem !important;
+                font-weight: 600 !important;
+            }
+        }
+    }
+
+    .chart-content {
+        position: static !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 5px !important;
+        height: 680px;
+        margin-left: 20px !important;
+        margin-top: 50px !important;
+        background: transparent !important;
+        transform: none !important;
+
+        .chart-inner-content {
+            display: flex;
+            flex-wrap: wrap;
+            height: 100%;
+            width: 100%;
+            gap: 5px !important;
+            margin-left: 0;
+            margin-top: 0;
+        }
+
+        .column_chart_card {
+            width: 15rem !important;
+            height: 7.5rem !important;
+            display: flex !important;
+            gap: 5px !important;
+        }
+
+        & .patterns {
+            margin-left: 0.5rem !important;
+            gap: 5px !important;
+            position: relative;
+        }
+    }
+
+    .pattern-1 {
+        width: 20px;
+        height: 65px;
+    }
+
+    .pattern-2 {
+        position: absolute;
+        bottom: 0;
+        left: 30px;
+        width: 20px;
+        height: 35px;
+    }
+
+    .pattern-3 {
+        position: absolute;
+        bottom: 0;
+        left: 60px;
+        width: 20px;
+        height: 75px;
+    }
+
+    .pattern-4 {
+        position: absolute;
+        bottom: 0;
+        left: 90px;
+        width: 20px;
+        height: 60px;
+    }
+
+    .pattern-5 {
+        position: absolute;
+        bottom: 0;
+        left: 120px;
+        width: 20px;
+        height: 35px;
+    }
+
+    .earning_card {
+        position: relative;
+        display: flex !important;
+        justify-content: center;
+        margin-top: 1.2rem !important;
+        margin-left: 1rem !important;
+        width: 13rem !important;
+
+        .circle {
+            position: relative;
+            width: 40px;
+            height: 40px;
+            background: #EBE1FF;
+            border-radius: 50%;
+        }
+
+        & .inner-circle {
+            position: absolute;
+            top: 11px;
+            left: 11px;
+            width: 20px;
+            height: 20px;
+        }
+
+        .card-text {
+            margin-left: 1.5rem !important;
+            h3 {
+                font-size: 2rem !important;
+            }
+        }
+    }
+
+    .statistics_card {
+        width: 14rem !important;
+        display: flex !important;
+
+        .chart-title span {
+            font-size: 14px !important;
+            margin: 0 !important;
+        }
+
+        .recharts-wrapper {
+            height: 130px !important;
+        }
+    }
+
+    .arrow-icons {
+        font-size: 17px !important;
+    }
+
+    .doughnut_card {
+        width: 13rem !important;
+        display: flex !important;
+        margin-left: 20px;
+        padding: 0 !important;
+
+        .doughnut_chart {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 9.5rem !important;
+            height: 9.5rem !important;
+
+            div {
+                font-weight: 700;
+                font-size: 1rem;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 1;
+
+                span {
+                    font-weight: normal;
+                    font-size: 0.8rem;
+                    color: #404040;
+                }
+            }
+        }
+    }
+
+    .contact_card {
+        width: 27rem !important;
+        position: relative;
+        display: flex !important;
+        margin-left: 2rem;
+    }
+
+    .header-divider {
+        margin: 1rem auto 1rem 6rem !important;
+    }
+}

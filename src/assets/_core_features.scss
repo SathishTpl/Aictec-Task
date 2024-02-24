@@ -1,0 +1,94 @@
+.core_features {
+    font-family: "Jost", sans-serif;
+    margin-top: 5rem;
+    margin-left: 7rem;
+
+    .row {
+        margin-right: 0;
+    }
+
+    .outer-card {
+        background-color: #F2F2F2ED;
+        box-shadow: -33px 60px 72px 0px #9B9B9B33;
+        border-radius: 20px;
+        border: none;
+
+        .inner-card {
+            background: linear-gradient(276.48deg, rgba(244, 244, 244, 0.93) 14.41%, rgba(244, 244, 244, 0.93) 47.68%, rgba(255, 255, 255, 0.93) 93.27%);
+            box-shadow: -2px 2px 0px 0px #FFFFFF inset;
+            border-radius: 20px;
+            border: none;
+        }
+    }
+}
+
+.pie_chart_card {
+    background: linear-gradient(276.48deg, rgba(244, 244, 244, 0.93) 14.41%, rgba(244, 244, 244, 0.93) 47.68%, rgba(255, 255, 255, 0.93) 93.27%);
+    box-shadow: -2px 2px 0px 0px #FFFFFF inset;
+    border-radius: 50% !important;
+    border: none !important;
+}
+
+.task_card {
+    background: linear-gradient(276.48deg, rgba(244, 244, 244, 0.93) 14.41%, rgba(244, 244, 244, 0.93) 47.68%, rgba(255, 255, 255, 0.93) 93.27%);
+    box-shadow: -2px 2px 0px 0px #FFFFFF inset;
+    border-radius: 15px !important;
+    border: none !important;
+}
+
+.content-inner-card {
+    background: linear-gradient(280.22deg, #fbfbfb 5.64%, rgba(224, 224, 224, 0) 70.96%) !important;
+    border: 1px solid !important;
+    border-radius: 20px !important;
+    border-image-source: linear-gradient(280.22deg, #E0E0E0 5.64%, rgba(224, 224, 224, 0) 70.96%) !important;
+}
+
+@media screen and (max-width: 992px) {
+    .pie_chart_card {
+        border-radius: 50% !important;
+        height: 8.5rem !important;
+    }
+
+    .area-charts-card {
+        .card-title {
+            font-size: 1rem !important;
+        }
+
+        h2 {
+            margin-bottom: 0 !important;
+            font-size: 1.8rem !important;
+        }
+    }
+
+    .content-card-wrapper {
+        margin-top: 2rem !important;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+
+    .core_features {
+        font-family: "Jost", sans-serif;
+        margin-top: 4rem;
+        margin-left: 5rem;
+
+        .row {
+            margin-right: 0;
+        }
+    }
+    
+    .pie_chart_card {
+        height: 8rem !important;
+        width: 8rem !important;
+    }
+
+    .task_card {
+        h6 {
+            font-size: 0.8rem !important;
+        }
+        .MuiSvgIcon-root, .bi-calendar-fill {
+            font-size: 1.5rem !important;
+        }
+    }
+
+}

@@ -1,0 +1,122 @@
+.features {
+    margin-top: 5rem;
+    margin-left: 7rem;
+    .row {
+        margin-right: 0;
+    }
+
+    .features-content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        text-transform: capitalize !important;
+        padding: 0 10rem !important;
+    }
+
+    .feature-cards {
+        margin-top: 2rem;
+        text-align: start !important;
+        text-transform: capitalize !important;
+
+        .card {
+            height: max-content;
+        }
+        .card-1 {
+            background: #F4F4F4ED;
+            border: none;
+            border-radius: 10px;
+            box-shadow: -2px 2px 0px 0px #FFFFFF inset;
+
+            .icon-circle {
+                position: relative;
+                z-index: 1;
+            }
+
+            & .lens {
+                position: absolute;
+                font-size: 35px;
+                top: 55px;
+                left: 45px;
+                color: #B1E8F2;
+                z-index: 0;
+            }
+        }
+
+        .card-2 {
+            border: none;
+            border-radius: 10px;
+            // box-shadow: -2px 2px 0px 0px #FFFFFF inset;
+            box-shadow: 0px 28px 57px 0px #BEBEBE40;
+
+            .icon-circle {
+                position: relative;
+                z-index: 1;
+            }
+
+            & .lens-2 {
+                position: absolute;
+                font-size: 35px;
+                top: 56px;
+                left: 54px;
+                color: #FAD7C9;
+                z-index: 0;
+            }
+        }
+
+        .card-3 {
+            background: #F4F4F4ED;
+            border: none;
+            border-radius: 10px;
+            box-shadow: -2px 2px 0px 0px #FFFFFF inset;
+
+            .icon-circle {
+                position: relative;
+                z-index: 1;
+            }
+
+            & .lens-3 {
+                position: absolute;
+                font-size: 35px;
+                top: 48px;
+                left: 53px;
+                z-index: 0;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .features {
+        margin-top: 3rem;
+        margin-left: 3rem;
+        h2 {
+            font-size: 1.8rem !important;
+        }
+
+        .features-content {
+            font-size: 15px !important;
+            padding: 0 6rem !important;
+        }
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .features {
+        margin-top: 3rem;
+        margin-left: 4.8rem;
+        h2 {
+            font-size: 1.8rem !important;
+        }
+
+        .features-content {
+            font-size: 15px !important;
+            padding: 0 4rem !important;
+        }
+        .feature-cards {
+            .card-3 {
+                margin-top: 1.625rem !important;
+            }
+        }
+    }
+}
