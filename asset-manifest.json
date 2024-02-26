@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/SathishTpl/Aictec-Task.git/static/css/main.0f4254cd.css",
-    "main.js": "/SathishTpl/Aictec-Task.git/static/js/main.3f9b5f2b.js",
-    "static/js/453.68693753.chunk.js": "/SathishTpl/Aictec-Task.git/static/js/453.68693753.chunk.js",
-    "static/media/bootstrap-icons.woff?": "/SathishTpl/Aictec-Task.git/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
-    "static/media/bootstrap-icons.woff2?": "/SathishTpl/Aictec-Task.git/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
-    "index.html": "/SathishTpl/Aictec-Task.git/index.html",
-    "main.0f4254cd.css.map": "/SathishTpl/Aictec-Task.git/static/css/main.0f4254cd.css.map",
-    "main.3f9b5f2b.js.map": "/SathishTpl/Aictec-Task.git/static/js/main.3f9b5f2b.js.map",
-    "453.68693753.chunk.js.map": "/SathishTpl/Aictec-Task.git/static/js/453.68693753.chunk.js.map"
+    "main.css": "/Aictec-Task/static/css/main.0c2d326c.css",
+    "main.js": "/Aictec-Task/static/js/main.bea68dff.js",
+    "static/js/453.68693753.chunk.js": "/Aictec-Task/static/js/453.68693753.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/Aictec-Task/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/Aictec-Task/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "index.html": "/Aictec-Task/index.html",
+    "main.0c2d326c.css.map": "/Aictec-Task/static/css/main.0c2d326c.css.map",
+    "main.bea68dff.js.map": "/Aictec-Task/static/js/main.bea68dff.js.map",
+    "453.68693753.chunk.js.map": "/Aictec-Task/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f4254cd.css",
-    "static/js/main.3f9b5f2b.js"
+    "static/css/main.0c2d326c.css",
+    "static/js/main.bea68dff.js"
   ]
 }
