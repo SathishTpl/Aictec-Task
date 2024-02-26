@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/SathishTpl/Aictec-Task.git/static/css/main.0f4254cd.css",
+    "main.js": "/SathishTpl/Aictec-Task.git/static/js/main.3f9b5f2b.js",
+    "static/js/453.68693753.chunk.js": "/SathishTpl/Aictec-Task.git/static/js/453.68693753.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/SathishTpl/Aictec-Task.git/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/SathishTpl/Aictec-Task.git/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "index.html": "/SathishTpl/Aictec-Task.git/index.html",
+    "main.0f4254cd.css.map": "/SathishTpl/Aictec-Task.git/static/css/main.0f4254cd.css.map",
+    "main.3f9b5f2b.js.map": "/SathishTpl/Aictec-Task.git/static/js/main.3f9b5f2b.js.map",
+    "453.68693753.chunk.js.map": "/SathishTpl/Aictec-Task.git/static/js/453.68693753.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f4254cd.css",
+    "static/js/main.3f9b5f2b.js"
+  ]
+}
