@@ -1,0 +1,103 @@
+.footer {
+    background: #303030;
+    margin-top: 35rem;
+    border-width: 0px, 0px, 0px, 0px;
+    border-style: solid;
+    border-color: #4A4A4A;
+    font-family: 'Jost', sans-serif;
+
+    .footer-content {
+        padding: 4rem 7rem 4rem 7rem;
+    }
+
+    .divider {
+        border-color: #838383;
+    }
+
+    .divider-2 {
+        border-color: #000000;
+    }
+
+    .contact-us-1 {
+        border: 1px solid;
+        background-color: transparent;
+        color: #ffff;
+        border-image-source: linear-gradient(282.45deg, #6C6C6C 7.11%, #303030 70.26%);
+        border-radius: 20px !important;
+    }
+
+    .footer-links {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        color: #FFFFFF;
+    }
+
+    .lists {
+        font-size: 15px;
+    }
+
+    .address {
+        border: 1px solid;
+        border-radius: 20px;
+        border-image-source: linear-gradient(282.45deg, #6C6C6C 7.11%, #303030 70.26%);
+        border-image-slice: 1;
+        border-image-width: 1;
+        border-image-outset: 0;
+    }
+
+    .footer-image {
+        width: 380px;
+        height: 150px;
+        border-radius: 10px;
+        background-image: url(../assets/img/footer-mobile.png);
+        background-position: center;
+        object-fit: cover;
+        background-size: 380px 350px;
+        background-repeat: no-repeat;
+    }
+
+    .read-btn {
+        background: #FFFFFFBF;
+        color: #313131;
+        text-transform: none;
+        font-weight: 550 !important;
+        padding: 0.5rem 1.3rem;
+        border-radius: 3px;
+        box-shadow: none;
+    }
+
+    .expand-icon {
+        border: 1px solid #4A4A4A;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .footer {
+        margin-top: 33rem;
+
+        .footer-content {
+            padding: 3rem 4rem 3rem 4rem;
+        }
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .footer {
+        margin-top: 25rem;
+
+        .footer-content {
+            padding: 2rem 2rem 2rem 2rem;
+        }
+    }
+
+    .footer-image {
+        width: 280px !important;
+        height: 140px !important;
+        border-radius: 10px;
+        background-image: url(../assets/img/footer-mobile.png);
+        background-position: center;
+        object-fit: cover;
+        background-size: 280px 314px !important;
+        background-repeat: no-repeat;
+    }
+}

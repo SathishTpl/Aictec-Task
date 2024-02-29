@@ -1,0 +1,194 @@
+.testimonials {
+    background: #303030;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    margin-top: 5rem;
+    font-family: 'Jost', sans-serif;
+
+    .testimonials-content {
+        position: relative;
+        padding: 4rem 7rem 4rem 7rem;
+
+        .testimonials-spread-content {
+            position: absolute;
+            top: 40px;
+            left: 15%;
+        }
+    }
+
+    .spreadsheet-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .spreadsheet-box {
+        border: 1px solid transparent;
+        border-image: radial-gradient(ellipse at center, #454545 0%, rgba(197, 197, 197, 0) 100%) 10;
+        padding: 45px 90px;
+    }
+
+    .spreadsheet-container .spreadsheet-box:first-child {
+        border-top: none;
+        border-left: none;
+    }
+
+    .spreadsheet-container .spreadsheet-box:nth-child(-n+2) {
+        border-top: none;
+    }
+
+    .spreadsheet-container .spreadsheet-box:nth-child(-n+3) {
+        border-top: none;
+        border-right: none;
+    }
+
+    .spreadsheet-container .spreadsheet-box:nth-child(-n+4) {
+        border-top: none;
+        border-right: none;
+    }
+
+    .spreadsheet-container-2 {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .spreadsheet-box-2 {
+        border: 1px solid transparent;
+        border-image: radial-gradient(ellipse at center, #454545 0%, rgba(197, 197, 197, 0) 100%) 10;
+        padding: 45px 90px;
+    }
+
+    .spreadsheet-container-2 .spreadsheet-box-2:first-child {
+        border-top: none;
+        border-left: none;
+    }
+
+    .spreadsheet-container-2 .spreadsheet-box-2:nth-child(-n+5) {
+        border-top: none;
+        border-right: none;
+    }
+
+    .spreadsheet-container-3 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .spreadsheet-box-3 {
+        border: 1px solid transparent;
+        border-image: radial-gradient(ellipse at center, #454545 0%, rgba(197, 197, 197, 0) 100%) 10;
+        padding: 45px 90px;
+    }
+
+    .spreadsheet-container-3 .spreadsheet-box-3:first-child {
+        border-top: none;
+        border-left: none;
+    }
+
+    .spreadsheet-container-3 .spreadsheet-box-3:nth-child(-n+4) {
+        border-top: none;
+        border-right: none;
+    }
+
+    .user-details {
+        color: white !important;
+
+        span {
+            margin-left: -166px;
+            font-size: 48px;
+        }
+
+        h3 {
+            margin-top: -40px;
+        }
+    }
+
+    .stars {
+        color: #FFB545;
+    }
+
+    .carousel-container {
+        margin-top: 3rem;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            width: 3rem;
+            height: 3rem;
+            // background: #454545;
+            color: white;
+            border-radius: 50%;
+            border: 1px solid #464646;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .testimonials {
+        margin-top: 3rem;
+    
+        .testimonials-content {
+            position: relative;
+            padding: 4rem 7rem 4rem 7rem;
+    
+            .testimonials-spread-content {
+                position: absolute;
+                top: 40px;
+                left: 4%;
+            }
+        }
+    
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .testimonials {
+        margin-top: 3rem;
+    
+        .testimonials-content {
+            position: relative;
+            padding: 4rem 4rem 3rem 4rem;
+    
+            .testimonials-spread-content {
+                position: absolute;
+                top: 40px;
+                left: 3%;
+            }
+        }
+        .spreadsheet-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+    
+        .spreadsheet-box {
+            border: 1px solid transparent;
+            border-image: radial-gradient(ellipse at center, #454545 0%, rgba(197, 197, 197, 0) 100%) 10;
+            padding: 35px 70px;
+        }
+    
+        .spreadsheet-container-2 {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+        }
+    
+        .spreadsheet-box-2 {
+            border: 1px solid transparent;
+            border-image: radial-gradient(ellipse at center, #454545 0%, rgba(197, 197, 197, 0) 100%) 10;
+            padding: 35px 70px;
+        }
+    
+        .spreadsheet-container-3 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+    
+        .spreadsheet-box-3 {
+            border: 1px solid transparent;
+            border-image: radial-gradient(ellipse at center, #454545 0%, rgba(197, 197, 197, 0) 100%) 10;
+            padding: 35px 70px;
+        }
+    
+    }
+}

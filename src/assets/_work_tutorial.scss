@@ -1,0 +1,135 @@
+.w-tutorial {
+    margin-top: 5rem;
+    margin-left: 7rem;
+
+    .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .col-lg-7 {
+        position: relative;
+        overflow: hidden !important;
+    }
+
+    .list-1 {
+        background: linear-gradient(280.22deg, #fbfbfb 5.64%, rgba(224, 224, 224, 0) 70.96%) !important;
+        border: 1px solid !important;
+        border-radius: 20px !important;
+        box-shadow: -2px 2px 0px 0px rgba(224, 224, 224, 0) inset;
+        border-image-source: linear-gradient(280.22deg, #E0E0E0 5.64%, rgba(224, 224, 224, 0) 70.96%) !important;
+    }
+
+    .card-mobile {
+        background: #F6F6F6;
+        border: none !important;
+        border-radius: 20px !important;
+        position: absolute;
+        transform: translateX(100px);
+        max-height: 440px;
+        overflow: hidden;
+
+        h3 {
+            line-height: 35px !important;
+        }
+
+        p {
+            margin-bottom: 10px !important;
+        }
+    }
+
+    .apple-btn {
+        background-color: $black !important;
+        color: $white !important;
+        padding: 0.6rem 1rem !important;
+        font-size: 0.8rem !important;
+        font-weight: 600 !important;
+        text-transform: capitalize !important;
+        align-items: start;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .w-tutorial {
+        margin-top: 3rem;
+        margin-left: 3rem;
+
+        .card-mobile {
+            background: #F6F6F6;
+            border: none !important;
+            border-radius: 20px !important;
+            position: absolute;
+            transform: translateX(35px);
+            max-height: 530px;
+            overflow: hidden;
+    
+            h3 {
+                font-size: 25px !important;
+                line-height: 32px !important;
+            }
+    
+            p {
+                margin-bottom: 5px !important;
+            }
+        }
+        .apple-btn {
+            background-color: $black !important;
+            color: $white !important;
+            padding: 0.5rem 1rem !important;
+            font-size: 0.5rem !important;
+            font-weight: 600 !important;
+            text-transform: capitalize !important;
+            align-items: start;
+        }
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .w-tutorial {
+        margin-top: 3rem;
+        margin-left: 3rem;
+        margin-bottom: 30rem !important;
+
+        .row {
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        .col-lg-7 {
+            position: relative;
+            overflow: visible !important;
+        }
+
+        .list-1 {
+            background: linear-gradient(280.22deg, #fbfbfb 5.64%, rgba(224, 224, 224, 0) 70.96%) !important;
+            border: 1px solid !important;
+            border-radius: 20px !important;
+            box-shadow: -2px 2px 0px 0px rgba(224, 224, 224, 0) inset;
+            border-image-source: linear-gradient(280.22deg, #E0E0E0 5.64%, rgba(224, 224, 224, 0) 70.96%) !important;
+        }
+
+        .card-mobile {
+            background: #F6F6F6;
+            border: none !important;
+            border-radius: 20px !important;
+            position: absolute;
+            transform: translateX(12px);
+            max-height: 325px;
+            margin-top: 1rem !important;
+        }
+
+        .apple-btn {
+            background-color: $black !important;
+            color: $white !important;
+            margin-top: 1rem !important;
+            padding: 0.5rem 1.3rem !important;
+            font-size: 0.6rem !important;
+            font-weight: 600 !important;
+            text-transform: capitalize !important;
+            align-items: start;
+        }
+
+    }
+
+}
