@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/Aictec-Task/static/css/main.0c2d326c.css",
-    "main.js": "/Aictec-Task/static/js/main.bea68dff.js",
+    "main.css": "/Aictec-Task/static/css/main.248f3a27.css",
+    "main.js": "/Aictec-Task/static/js/main.2181e6bd.js",
     "static/js/453.68693753.chunk.js": "/Aictec-Task/static/js/453.68693753.chunk.js",
+    "static/media/footer-mobile.png": "/Aictec-Task/static/media/footer-mobile.f5488b1581da06fe6ef2.png",
     "static/media/bootstrap-icons.woff?": "/Aictec-Task/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/bootstrap-icons.woff2?": "/Aictec-Task/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/userimage.png": "/Aictec-Task/static/media/userimage.4a64446bd5b00ae77a70.png",
+    "static/media/emoji.png": "/Aictec-Task/static/media/emoji.462f53dc6b7081f3b18f.png",
+    "static/media/mobile-removebg-preview.png": "/Aictec-Task/static/media/mobile-removebg-preview.4547b509d8e7b513d7e4.png",
+    "static/media/playstore.png": "/Aictec-Task/static/media/playstore.2abd08cc3b3e1335be44.png",
     "index.html": "/Aictec-Task/index.html",
-    "main.0c2d326c.css.map": "/Aictec-Task/static/css/main.0c2d326c.css.map",
-    "main.bea68dff.js.map": "/Aictec-Task/static/js/main.bea68dff.js.map",
+    "main.248f3a27.css.map": "/Aictec-Task/static/css/main.248f3a27.css.map",
+    "main.2181e6bd.js.map": "/Aictec-Task/static/js/main.2181e6bd.js.map",
     "453.68693753.chunk.js.map": "/Aictec-Task/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c2d326c.css",
-    "static/js/main.bea68dff.js"
+    "static/css/main.248f3a27.css",
+    "static/js/main.2181e6bd.js"
   ]
 }
